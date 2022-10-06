@@ -67,8 +67,8 @@ public class SwingLogin extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==btnLogin) {
-			String tf=tfid.getText();
-			String tP=new String(tfPwd.getPassword());
+			String tf = tfid.getText();
+			String tP = new String(tfPwd.getPassword());
 			if(tf.length()==0) 		lbResult.setText("아이디를 입력하세요");
 			else if(tP.length()==0) lbResult.setText("비밀번호를 입력하세요");
 			else					lbResult.setText(tf+"님의 비밀번호는 "+tP+"입니다");
