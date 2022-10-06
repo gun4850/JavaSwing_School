@@ -40,7 +40,7 @@ public class CheckBoxItemEventEx extends JFrame implements ItemListener{
 	public static void main(String[] args) {
 		new CheckBoxItemEventEx();
 		
-	}//변경점 저장
+	}//변경점 
 	@Override
 	public void itemStateChanged(ItemEvent e) {
 		if(e.getStateChange()==ItemEvent.SELECTED) {

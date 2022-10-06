@@ -65,6 +65,6 @@ public class SwingCounter extends JFrame implements ActionListener{
 		}
 	}
 	//JTextArea ta = new JTextArea(10,30);
-	//JScrollPane
+	//JScrollPan
 
 }
